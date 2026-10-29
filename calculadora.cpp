@@ -75,10 +75,10 @@ int main() {
         cout << "Seleccione una opción: ";
         cin >> menu;
         switch (menu) {
-            case 1:
-                cout << "Suma: " << Casio.sumar() << endl;
-                break;
-            case 2:
+        case 1:
+            cout << "Suma: " << Casio.sumar() << endl;
+            break;
+        case 2:
             cout << "Resta: " << Casio.restar() << endl;
             break;
         case 3:
